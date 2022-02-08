@@ -1,0 +1,134 @@
+body {
+	background: #e8edeb;
+	font-family: Livvic;
+}
+	
+.name {
+	float:left;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 20px;
+	background-color: #2c3e4e;
+	color: white;
+}
+
+.navigation {
+	list-style-type: none;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #8ebeb9;
+	overflow: hidden;
+}
+
+.links {
+	float: right;
+}
+
+.links a:link {
+	display: block;
+	background-color: #8ebeb9;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.links a:visited {
+	color: black;
+}
+
+.links a:hover {
+	background-color: #5da29b;
+	color: white;
+}
+
+.links a:active {
+	background-color: #00b4e9;
+	color: white;
+}
+
+.travel_hf {
+	display: block;
+	background-color: #8ebeb9;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.path {
+	color: black;
+	width: 100%;
+}
+
+.path a:visited {
+	color: black;
+}
+
+.path a:hover {
+	color: #505050;
+}
+
+.path a:active {
+	color: black;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+	background-color: #2c3e4e;
+	padding: 10px;
+}
+
+.contacts {
+	list-style-type: none;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.sprites {
+	float: right;
+}
+
+.sprite-1 {
+	background: url('images/sprites.png') no-repeat -34px -464px;
+	width: 48px;
+	height: 48px;
+}
+
+.sprite-1:hover {
+	background: url('images/sprites.png') no-repeat -34px -154px;
+	width: 48px;
+	height: 48px;
+}
+
+.sprite-2 {
+	background: url('images/sprites.png') no-repeat -91px -464px;
+	width: 48px;
+	height: 48px;
+}
+
+.sprite-2:hover {
+	background: url('images/sprites.png') no-repeat -91px -154px;
+	width: 48px;
+	height: 48px;
+}
+
+.sprite-3 {
+	background: url('images/sprites.png') no-repeat -380px -464px;
+	width: 48px;
+	height: 48px;
+}
+
+.sprite-3:hover {
+	background: url('images/sprites.png') no-repeat -380px -154px;
+	width: 48px;
+	height: 48px;
+}
