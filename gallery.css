@@ -49,16 +49,6 @@ body {
 	color: white;
 }
 
-.travel_hf {
-	display: block;
-	background-color: #8ebeb9;
-	padding-right: 25px;
-	padding-left: 25px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-	text-align: center;
-}
-
 .path {
 	color: black;
 	width: 100%;
@@ -74,6 +64,20 @@ body {
 
 .path a:active {
 	color: black;
+}
+
+.travel_hf {
+	display: block;
+	background-color: #8ebeb9;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.imgs {
+	border-radius: 30px;
 }
 
 footer {

@@ -82,6 +82,14 @@ footer {
 	padding: 10px;
 }
 
+.imgs {
+	border-radius: 30px;
+}
+
+.imgs:hover {
+	transform: scale(1.2);
+}
+
 .sources {
 	text-align: left;
 }
